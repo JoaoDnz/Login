@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url('https://img.freepik.com/vetores-gratis/ilustracoes-de-gradiente-lo-fi_52683-82981.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a:link {
+    color: rgb(158, 158, 158);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(190, 96, 190);
+    background-color: transparent;
+    text-decoration: underline
+}
+
+p {
+    text-align: center;
+    color: white;
+    height: 45px;
+}
+
+.tudo {
+    background-color: rgb(41, 41, 41);
+    border-radius: 30px;
+    font-size: 20px;
+    width: 800px;
+    height: 500px;
+}
+
+.title{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+
+.entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+}
+
+.botão {
+    display: flex;
+    justify-content: center;
+}
+
+.tudo button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    width: 110px;
+    height: 55px;
+    font-size: 25px;
+}
+
+
+.tudo input {
+    width: 300px;
+    padding: 14px;
+    margin: 2px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 6px;
+    color: black;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
